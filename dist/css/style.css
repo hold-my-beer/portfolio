@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 1rem;
   line-height: 1.6rem;
   text-align: center;
@@ -15,7 +15,7 @@ body {
 
 body#code-img {
   height: 100vh;
-  background: url('../img/code.jpg') no-repeat center center/cover;
+  background: url("../img/code.jpg") no-repeat center center/cover;
 }
 
 h1,
@@ -245,7 +245,7 @@ table {
 
 .works-items {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -254,6 +254,7 @@ table {
   width: 285px;
   height: 470px;
   margin-bottom: 4rem;
+  margin-right: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
